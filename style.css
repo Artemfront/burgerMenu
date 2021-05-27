@@ -1,0 +1,92 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+a:hover {
+    color:rgb(160, 214, 187);
+}
+
+ nav.nav {
+    width:300px;
+    height: 100vh;
+    background-color: rgb(45, 79, 98);
+}
+
+.sidebar {
+    position: fixed;
+    left:-300px;
+}
+
+ .sidebar.active {
+    position: fixed;
+    left:0;
+}
+
+.container {
+    width:300px;
+    height: 20vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding-top:50px;
+}
+
+
+h1, h3 {
+    color:white;
+    text-align:center;
+    font-weight: normal;
+}
+
+h1 {
+    font-family:fantasy;
+    cursor: pointer;
+}
+
+h3 {
+    font-family:cursive;
+}
+
+
+.burger {
+    width:75px;
+    height:75px;
+    background-color:rgb(92, 211, 181);
+
+    position: absolute;
+    left:325px;
+    top:50px;
+
+    border-radius: 20px;
+}
+
+
+.burger > div {
+    width:50px;
+    height: 5px;
+    background-color: rgb(71, 114, 216);
+    margin-left:12.5px;
+}
+
+.first {
+    margin-top:15px;
+}
+
+.second {
+    margin-top:15px;
+}
+
+.third {
+    margin-top:15px;
+}
+
+
+
